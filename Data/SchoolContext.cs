@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StrixhavenUniversity.Models;
 
-namespace StixhavenUniversity.Data
+namespace StrixhavenUniversity.Data
 {
     public class SchoolContext : DbContext
     {

@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using StixhavenUniversity.Data;
+using StrixhavenUniversity.Data;
 
-namespace StixhavenUniversity
+namespace StrixhavenUniversity
 {
     public class Program
     {

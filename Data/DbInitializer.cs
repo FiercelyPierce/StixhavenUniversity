@@ -2,7 +2,7 @@
 using System.Linq;
 using System;
 
-namespace StixhavenUniversity.Data
+namespace StrixhavenUniversity.Data
 {
     public static class DbInitializer
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace StixhavenUniversity.Models
+namespace StrixhavenUniversity.Models
 {
     public class ErrorViewModel
     {

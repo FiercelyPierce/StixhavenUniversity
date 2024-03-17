@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "StixhavenUniversity": {
+    "StrixhavenUniversity": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
