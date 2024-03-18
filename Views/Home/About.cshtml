@@ -6,25 +6,32 @@
 
 <h2>Student Body Statistics</h2>
 
-<table>
-    <tr>
-        <th>
-            Enrollment Date
-        </th>
-        <th>
-            Students
-        </th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
+<div class="row">
+    <table class="col-md-4">
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
-            </td>
-            <td>
-                @item.StudentCount
-            </td>
+            <th>
+                Enrollment Date
+            </th>
+            <th>
+                Students
+            </th>
         </tr>
-    }
-</table>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                </td>
+                <td>
+                    @item.StudentCount
+                </td>
+            </tr>
+        }
+    </table>
+
+    <div class="col-md-4">
+        <h3>Pierce Cirks</h3>
+        <p>cir21001@byui.edu</p>
+    </div>
+</div>
