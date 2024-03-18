@@ -5,7 +5,7 @@ using System;
 
 namespace StrixhavenUniversity.Models
 {
-    public class Instructor
+    public class Instructor : Person
     {
         public int ID { get; set; }
 
